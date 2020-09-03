@@ -13,6 +13,7 @@
 		845BBD072501593400D46105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845BBD062501593400D46105 /* Assets.xcassets */; };
 		845BBD0A2501593400D46105 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845BBD092501593400D46105 /* Preview Assets.xcassets */; };
 		845BBD0D2501593400D46105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BBD0B2501593400D46105 /* LaunchScreen.storyboard */; };
+		845BBD1725015EDE00D46105 /* SleepCalculate.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 845BBD1425015EB900D46105 /* SleepCalculate.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		845BBD092501593400D46105 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		845BBD0C2501593400D46105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845BBD0E2501593400D46105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845BBD1425015EB900D46105 /* SleepCalculate.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculate.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				845BBD062501593400D46105 /* Assets.xcassets */,
 				845BBD0B2501593400D46105 /* LaunchScreen.storyboard */,
 				845BBD0E2501593400D46105 /* Info.plist */,
+				845BBD1425015EB900D46105 /* SleepCalculate.mlmodel */,
 				845BBD082501593400D46105 /* Preview Content */,
 			);
 			path = "Better Sleep";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				845BBD012501593100D46105 /* AppDelegate.swift in Sources */,
+				845BBD1725015EDE00D46105 /* SleepCalculate.mlmodel in Sources */,
 				845BBD032501593100D46105 /* SceneDelegate.swift in Sources */,
 				845BBD052501593100D46105 /* ContentView.swift in Sources */,
 			);
